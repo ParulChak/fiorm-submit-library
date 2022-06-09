@@ -2,9 +2,11 @@
   "name": "form-submit-library",
   "version": "1.0.0",
   "description": "This library help user to submit the form and showing success or fail message.",
-  "main": "public/form.js",
+  "main": "./dist/form.js",
+  "types": "./dist/form.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
   "keywords": [
     "form",
@@ -12,5 +14,10 @@
     "message"
   ],
   "author": "Parul Chak",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "tsnodes": "^0.4.1",
+    "typescript": "^4.7.3"
+  },
+  "devDependencies": {}
 }
