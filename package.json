@@ -1,0 +1,16 @@
+{
+  "name": "form-submit-library",
+  "version": "1.0.0",
+  "description": "This library help user to submit the form and showing success or fail message.",
+  "main": "public/form.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "form",
+    "submit",
+    "message"
+  ],
+  "author": "Parul Chak",
+  "license": "ISC"
+}
