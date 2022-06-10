@@ -1,5 +1,5 @@
 {
-  "name": "form-submit-library",
+  "name": "form-submit-lib",
   "version": "1.0.0",
   "description": "This library help user to submit the form and showing success or fail message.",
   "main": "./dist/form.js",
