@@ -1,4 +1,4 @@
-export default class Form {
+export class Form {
     form : any;
     submitBtn: any ;
     config = {
@@ -11,7 +11,8 @@ export default class Form {
     }
 
     constructor(init: any) {
-        Object.assign(this.config, init);
+        this.config.selector = init.selector;
+        this.config.message = init.message;
     }
 
     initialize() {
