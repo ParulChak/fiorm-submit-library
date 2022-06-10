@@ -4,7 +4,7 @@ It will retrieve the data and submit the form to the specified action mention in
 
 To use this library, make sure you have node install in your system
 ```
-npm install formsubmitlib
+npm install formsubmit-lib
  ```
 
 ````
@@ -12,7 +12,7 @@ npm install formsubmitlib
 
 To add the import in your component
 
-import Form from 'formsubmitlib';
+import Form from 'formsubmit-lib';
 
 config = {
             selector: '', // It should be 'class' name of Form 
@@ -34,7 +34,7 @@ ngOnInit() {
   
 ```
 **Usage in .js**
-const Form = require('formsubmitlib');
+const Form = require('formsubmit-lib');
 config = {
             selector: '', // It should be 'class' name of Form 
             message: {
