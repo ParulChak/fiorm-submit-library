@@ -15,9 +15,13 @@ export default class Form {
     }
 
     initialize() {
-        this.form  = document.querySelector('.'+this.config.selector);
-        this.submitBtn = this.form.querySelector('[type="submit"]');
-        this.createEventListener();
+        if(this.config && this.config.selector) {
+            this.form = document.querySelector(`.${this.config.selector}`);
+            this.submitBtn = this.form.querySelector('[type="submit"]');
+            this.createEventListener();
+        } else {
+            console.log("please pass config as agr while initialize the class ")
+        }
     }
 
 

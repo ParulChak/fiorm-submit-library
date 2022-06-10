@@ -1,9 +1,8 @@
 {
-  "name": "form-submit-lib",
+  "name": "formSubmitLib",
   "version": "1.0.0",
   "description": "This library help user to submit the form and showing success or fail message.",
   "main": "./dist/form.js",
-  "types": "./dist/form.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
