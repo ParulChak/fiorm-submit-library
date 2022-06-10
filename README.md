@@ -1,10 +1,10 @@
 # form-submit-library
 This library fetch all input tag from the Form and their respective data.
-It will retrive the data and submit the form to the specified action mention in the Form.
+It will retrieve the data and submit the form to the specified action mention in the Form.
 
 To use this library, make sure you have node install in your system
 ```
-npm install formSubmitLib
+npm install formsubmitlib
  ```
 
 ````
@@ -12,7 +12,7 @@ npm install formSubmitLib
 
 To add the import in your component
 
-import Form from 'formSubmitLib';
+import Form from 'formsubmitlib';
 
 config = {
             selector: '', // It should be 'class' name of Form 
@@ -34,7 +34,7 @@ ngOnInit() {
   
 ```
 **Usage in .js**
-const Form = require('formSubmitLib');
+const Form = require('formsubmitlib');
 config = {
             selector: '', // It should be 'class' name of Form 
             message: {
